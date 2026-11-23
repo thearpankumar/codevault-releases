@@ -1,0 +1,19 @@
+{
+ "Assets": [
+  {
+   "PackageId": "CodeVault",
+   "Version": "0.3.2",
+   "Type": "Full",
+   "FileName": "CodeVault-0.3.2-linux-x64-stable-full.nupkg",
+   "SHA1": "44879AC7064D3BBAC0CB78D3B8F8AB6A82DAB6C3",
+   "SHA256": "0a24f7bf0b0d1ebb07a9713aeae6d5fcc905ace9e0ae3c148841bdf67d767a2d",
+   "Size": 8231325
+  }
+ ],
+ "channel": "stable",
+ "os": "linux",
+ "arch": "x86_64",
+ "issued_at": "2026-11-21T23:39:44Z",
+ "expires_at": "2027-02-19T23:39:44Z",
+ "base_url": "https://thearpankumar.github.io/codevault-releases/v0.3.2/"
+}

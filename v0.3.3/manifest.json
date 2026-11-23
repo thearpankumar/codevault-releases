@@ -1,0 +1,121 @@
+{
+ "version": "0.3.3",
+ "released_at": "2026-11-23T10:51:49Z",
+ "notes": "v0.3.3",
+ "artifacts": [
+  {
+   "os": "linux",
+   "arch": "x86_64",
+   "kind": "appimage",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-linux-x64.AppImage",
+   "sha256": "98d874d19fbb9995f906bb99b728442254fca941540cf93e71716180558c9d76",
+   "size": 8776184
+  },
+  {
+   "os": "macos",
+   "arch": "aarch64",
+   "kind": "portable",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-arm64-Portable.zip",
+   "sha256": "e38735e88f911128ae3a1515d0d69ee35c658a2a062b4d180e94dea63aeabf49",
+   "size": 6668384
+  },
+  {
+   "os": "macos",
+   "arch": "aarch64",
+   "kind": "pkg",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-arm64-Setup.pkg",
+   "sha256": "2991a3ba7807cd946ffd4b98a71c87eecb34cd8fded1020b082040ffa3e7afcc",
+   "size": 6668244
+  },
+  {
+   "os": "macos",
+   "arch": "x86_64",
+   "kind": "portable",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-x64-Portable.zip",
+   "sha256": "bcdb120eaf9f054c8e4dd1b5be4e128352ef2d3e9dfeeeaaeb3c7e3608aab662",
+   "size": 6866121
+  },
+  {
+   "os": "macos",
+   "arch": "x86_64",
+   "kind": "pkg",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-x64-Setup.pkg",
+   "sha256": "96cdd5bae0d760a20b672356af78d6216a8a32902fc48728bc88aff37343210b",
+   "size": 6868260
+  },
+  {
+   "os": "windows",
+   "arch": "aarch64",
+   "kind": "portable",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-arm64-Portable.zip",
+   "sha256": "d4d3f1ade00cfa2ab3e2867ba21c18819ed97a9c13223aa6815b86320111460f",
+   "size": 5354277
+  },
+  {
+   "os": "windows",
+   "arch": "aarch64",
+   "kind": "setup",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-arm64-Setup.exe",
+   "sha256": "e3aeb01cfb9d8090ffd707dabc048e45d8cc9c1b49848621d1fd8ad68e49a601",
+   "size": 12007641
+  },
+  {
+   "os": "windows",
+   "arch": "x86_64",
+   "kind": "portable",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-x64-Portable.zip",
+   "sha256": "22298cd04ff1f1486dca4126e5b70dfb6901c989d59033ed01708636e2efe697",
+   "size": 5603344
+  },
+  {
+   "os": "windows",
+   "arch": "x86_64",
+   "kind": "setup",
+   "url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-x64-Setup.exe",
+   "sha256": "1a353a988ceef3e349dc5f707c7c9da0f366a8eecf03530c144277b762344f4e",
+   "size": 14123458
+  }
+ ],
+ "feeds": [
+  {
+   "os": "linux",
+   "arch": "x86_64",
+   "channel": "stable",
+   "name": "releases.linux-x64-stable.json",
+   "sha256": "a3a6031e8af37963c93d52e7e0962a3a06bfb342c76244c9a411f3719fdd284b",
+   "executable_sha256": "0973c5e58fe8bc0b5ac631a28c20ae4585c03db3f3381bd4a4a9a9c40d4d784c"
+  },
+  {
+   "os": "macos",
+   "arch": "aarch64",
+   "channel": "stable",
+   "name": "releases.osx-arm64-stable.json",
+   "sha256": "47959a4b65804e025303c926a88f5c824e44df395af698c98da96a935213f0e8",
+   "executable_sha256": "d8441b15e5e2633e8024f9669620dbe7f27c45b922c73efb7104637b494f445e"
+  },
+  {
+   "os": "macos",
+   "arch": "x86_64",
+   "channel": "stable",
+   "name": "releases.osx-x64-stable.json",
+   "sha256": "661224c1b06e96bf8ce1f7217c6c360d30ca74d439af815a0698a13c26394d8f",
+   "executable_sha256": "60e5aa48716615315a421722e8d8b11eb8758b00cd83f18a5395c8796ce1c1f5"
+  },
+  {
+   "os": "windows",
+   "arch": "aarch64",
+   "channel": "stable",
+   "name": "releases.win-arm64-stable.json",
+   "sha256": "60f39b3768fa9ef0caea09da8cd3827be434d3729d98125d99cdcbae9b6aec1b",
+   "executable_sha256": "9ea72c0eab8c46925aae880b290fd930330f42c58d0827360aab3cbb65ca1534"
+  },
+  {
+   "os": "windows",
+   "arch": "x86_64",
+   "channel": "stable",
+   "name": "releases.win-x64-stable.json",
+   "sha256": "1d23af1b65a51fec9b2a7b2aec9fb1526b38bb307fd1bcbee2a2e7bb4896de48",
+   "executable_sha256": "578cf2ac8539ad778903c564f1b3e1c6091bf9645b4499a616c79bd88f20e32e"
+  }
+ ]
+}

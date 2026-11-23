@@ -1,0 +1,19 @@
+{
+ "Assets": [
+  {
+   "PackageId": "CodeVault",
+   "Version": "0.3.3",
+   "Type": "Full",
+   "FileName": "CodeVault-0.3.3-win-arm64-stable-full.nupkg",
+   "SHA1": "9E08DAFFB78816DF37537C0BF46D0E3ED3229A2C",
+   "SHA256": "0975fca95a39cf6cce50d9d8c73598098ecbfc6c359b4ecb2903d350357f219f",
+   "Size": 5398233
+  }
+ ],
+ "channel": "stable",
+ "os": "windows",
+ "arch": "aarch64",
+ "issued_at": "2026-11-23T10:51:49Z",
+ "expires_at": "2027-02-21T10:51:49Z",
+ "base_url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/"
+}

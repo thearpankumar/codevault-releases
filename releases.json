@@ -1,0 +1,22 @@
+{
+ "releases": [
+  {
+   "version": "0.3.3",
+   "released_at": "2026-11-23T10:51:49Z",
+   "notes": "v0.3.3",
+   "channels": [
+    "stable"
+   ],
+   "manifest_sha256": "6955e669ded014c345464cfe252dbd133c70582f1b16f380761d17b4c28482e1"
+  },
+  {
+   "version": "0.3.2",
+   "released_at": "2026-11-21T23:39:44Z",
+   "notes": "v0.3.2",
+   "channels": [
+    "stable"
+   ],
+   "manifest_sha256": "db85b0426a633449d3f6985e30e51951233510fa195a68e5cb54276cc2007fce"
+  }
+ ]
+}

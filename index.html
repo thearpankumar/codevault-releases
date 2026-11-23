@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Download Code Vault</title>
+<style>
+:root{color-scheme:light dark;--fg:#1d2330;--bg:#fff;--muted:#5a6272;--line:#d6dae2;--accent:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--fg:#e6e9ef;--bg:#14171d;--muted:#a3aab8;--line:#333a46;--accent:#f0b84a}}
+body{font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--fg);background:var(--bg);max-width:72rem;margin:0 auto;padding:2rem 1rem}
+a{color:var(--accent)} a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.muted{color:var(--muted)} .btn{display:inline-block;padding:.75rem 1.25rem;border-radius:8px;background:var(--accent);color:var(--bg);font-weight:600;text-decoration:none}
+table{border-collapse:collapse;width:100%;margin:1rem 0} caption{text-align:left;font-weight:600;padding:.5rem 0}
+th,td{border-bottom:1px solid var(--line);padding:.5rem;text-align:left;vertical-align:top} .num{white-space:nowrap}
+code{font-size:.8rem;word-break:break-all} .notes{white-space:pre-wrap} .wrap{overflow-x:auto}
+</style></head>
+<body><main>
+<h1>Download Code Vault</h1>
+<p>Version <strong>0.3.3</strong>, released 2026-11-23. Code Vault updates itself after installation.</p>
+<p id="recommended" hidden aria-live="polite"></p>
+<div class="wrap"><table id="latest"><caption>Installers</caption><thead><tr><th scope="col">Platform</th><th scope="col">Type</th><th scope="col">File</th><th scope="col">Size</th><th scope="col">SHA-256</th></tr></thead><tbody>
+<tr data-platform="windows-x86_64" data-kind="setup"><td>Windows (x64)</td><td>Installer (.exe)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-x64-Setup.exe">CodeVault-0.3.3-windows-x64-Setup.exe</a></td><td class="num">14.1 MB</td><td><code>1a353a988ceef3e349dc5f707c7c9da0f366a8eecf03530c144277b762344f4e</code></td></tr>
+<tr data-platform="windows-x86_64" data-kind="portable"><td>Windows (x64)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-x64-Portable.zip">CodeVault-0.3.3-windows-x64-Portable.zip</a></td><td class="num">5.6 MB</td><td><code>22298cd04ff1f1486dca4126e5b70dfb6901c989d59033ed01708636e2efe697</code></td></tr>
+<tr data-platform="windows-aarch64" data-kind="setup"><td>Windows (ARM64)</td><td>Installer (.exe)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-arm64-Setup.exe">CodeVault-0.3.3-windows-arm64-Setup.exe</a></td><td class="num">12.0 MB</td><td><code>e3aeb01cfb9d8090ffd707dabc048e45d8cc9c1b49848621d1fd8ad68e49a601</code></td></tr>
+<tr data-platform="windows-aarch64" data-kind="portable"><td>Windows (ARM64)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-windows-arm64-Portable.zip">CodeVault-0.3.3-windows-arm64-Portable.zip</a></td><td class="num">5.4 MB</td><td><code>d4d3f1ade00cfa2ab3e2867ba21c18819ed97a9c13223aa6815b86320111460f</code></td></tr>
+<tr data-platform="macos-aarch64" data-kind="pkg"><td>macOS (Apple silicon)</td><td>Installer (.pkg)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-arm64-Setup.pkg">CodeVault-0.3.3-macos-arm64-Setup.pkg</a></td><td class="num">6.7 MB</td><td><code>2991a3ba7807cd946ffd4b98a71c87eecb34cd8fded1020b082040ffa3e7afcc</code></td></tr>
+<tr data-platform="macos-aarch64" data-kind="portable"><td>macOS (Apple silicon)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-arm64-Portable.zip">CodeVault-0.3.3-macos-arm64-Portable.zip</a></td><td class="num">6.7 MB</td><td><code>e38735e88f911128ae3a1515d0d69ee35c658a2a062b4d180e94dea63aeabf49</code></td></tr>
+<tr data-platform="macos-x86_64" data-kind="pkg"><td>macOS (Intel)</td><td>Installer (.pkg)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-x64-Setup.pkg">CodeVault-0.3.3-macos-x64-Setup.pkg</a></td><td class="num">6.9 MB</td><td><code>96cdd5bae0d760a20b672356af78d6216a8a32902fc48728bc88aff37343210b</code></td></tr>
+<tr data-platform="macos-x86_64" data-kind="portable"><td>macOS (Intel)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-macos-x64-Portable.zip">CodeVault-0.3.3-macos-x64-Portable.zip</a></td><td class="num">6.9 MB</td><td><code>bcdb120eaf9f054c8e4dd1b5be4e128352ef2d3e9dfeeeaaeb3c7e3608aab662</code></td></tr>
+<tr data-platform="linux-x86_64" data-kind="appimage"><td>Linux (x64)</td><td>AppImage</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.3/CodeVault-0.3.3-linux-x64.AppImage">CodeVault-0.3.3-linux-x64.AppImage</a></td><td class="num">8.8 MB</td><td><code>98d874d19fbb9995f906bb99b728442254fca941540cf93e71716180558c9d76</code></td></tr>
+</tbody></table></div>
+<p class="muted">Installers are not code-signed: Windows SmartScreen and macOS Gatekeeper ask for confirmation
+on first launch. Compare the file's SHA-256 with the table to check the download.</p>
+<h2>Release notes</h2>
+<p class="notes">v0.3.3</p>
+<h2>Older versions</h2>
+<details><summary>Code Vault 0.3.2</summary><div class="wrap"><table><caption>Installers for 0.3.2</caption><thead><tr><th scope="col">Platform</th><th scope="col">Type</th><th scope="col">File</th><th scope="col">Size</th><th scope="col">SHA-256</th></tr></thead><tbody>
+<tr data-platform="windows-x86_64" data-kind="setup"><td>Windows (x64)</td><td>Installer (.exe)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-windows-x64-Setup.exe">CodeVault-0.3.2-windows-x64-Setup.exe</a></td><td class="num">14.1 MB</td><td><code>9d20b56d403b2851626e62fb3f2feb4c099cc2af34004ffcb469f7c2309a087b</code></td></tr>
+<tr data-platform="windows-x86_64" data-kind="portable"><td>Windows (x64)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-windows-x64-Portable.zip">CodeVault-0.3.2-windows-x64-Portable.zip</a></td><td class="num">5.6 MB</td><td><code>3921b7ae76e3f5e15350d73bf235f32d6100342744a51100aa6b4ed411dca65d</code></td></tr>
+<tr data-platform="windows-aarch64" data-kind="setup"><td>Windows (ARM64)</td><td>Installer (.exe)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-windows-arm64-Setup.exe">CodeVault-0.3.2-windows-arm64-Setup.exe</a></td><td class="num">12.0 MB</td><td><code>c9436031e01ba5c1a21f6664d915e42a0f5fb83deb59cc5978bbd7fdf34b7c7e</code></td></tr>
+<tr data-platform="windows-aarch64" data-kind="portable"><td>Windows (ARM64)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-windows-arm64-Portable.zip">CodeVault-0.3.2-windows-arm64-Portable.zip</a></td><td class="num">5.3 MB</td><td><code>81854bc0ed12f89e41cda85d0675d72e06bbdf961bb06522c32632db8e0fd382</code></td></tr>
+<tr data-platform="macos-aarch64" data-kind="pkg"><td>macOS (Apple silicon)</td><td>Installer (.pkg)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-macos-arm64-Setup.pkg">CodeVault-0.3.2-macos-arm64-Setup.pkg</a></td><td class="num">6.6 MB</td><td><code>8c2fa2d786f91c0d9818b44723e55c1b81cbba1b72fb1b86a8c402a4a643f4e0</code></td></tr>
+<tr data-platform="macos-aarch64" data-kind="portable"><td>macOS (Apple silicon)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-macos-arm64-Portable.zip">CodeVault-0.3.2-macos-arm64-Portable.zip</a></td><td class="num">6.6 MB</td><td><code>2ed971d56be2d4c91bcdcb4717d54b4c3b6090d1a4f4da7ccd2d5b0ec719dcd3</code></td></tr>
+<tr data-platform="macos-x86_64" data-kind="pkg"><td>macOS (Intel)</td><td>Installer (.pkg)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-macos-x64-Setup.pkg">CodeVault-0.3.2-macos-x64-Setup.pkg</a></td><td class="num">6.8 MB</td><td><code>2965e1f3f07afe325f34358a999611cdfc7ad5c0ed54c8b23afb2a2b45f38fb4</code></td></tr>
+<tr data-platform="macos-x86_64" data-kind="portable"><td>macOS (Intel)</td><td>Portable (.zip)</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-macos-x64-Portable.zip">CodeVault-0.3.2-macos-x64-Portable.zip</a></td><td class="num">6.8 MB</td><td><code>de4cdd5de0359e39476abf99d6188db30aac50c5961c6f79776ea48d2dfd738f</code></td></tr>
+<tr data-platform="linux-x86_64" data-kind="appimage"><td>Linux (x64)</td><td>AppImage</td><td><a href="https://thearpankumar.github.io/codevault-releases/v0.3.2/CodeVault-0.3.2-linux-x64.AppImage">CodeVault-0.3.2-linux-x64.AppImage</a></td><td class="num">8.7 MB</td><td><code>a4f6125b166591687846971c7eee055aff8e4eadba4091d410016afa55394555</code></td></tr>
+</tbody></table></div><p class="notes">v0.3.2</p></details>
+</main>
+<script>
+(async () => {
+  const d = navigator.userAgentData, ua = navigator.userAgent;
+  const p = (d && d.platform) || ua;
+  let os = /win/i.test(p) ? "windows" : /mac/i.test(p) ? "macos" : /linux|x11/i.test(p) && !/android/i.test(ua) ? "linux" : null;
+  if (!os) return;
+  // Safari/Firefox do not expose the CPU: Macs default to Apple silicon, Windows to x64.
+  let arch = os === "macos" ? "aarch64" : "x86_64";
+  try {
+    if (d && d.getHighEntropyValues) {
+      const h = await d.getHighEntropyValues(["architecture"]);
+      if (h.architecture) arch = h.architecture === "arm" ? "aarch64" : "x86_64";
+    }
+  } catch (e) {}
+  if (os === "linux") arch = "x86_64";
+  const row = document.querySelector(`#latest tr[data-platform="${os}-${arch}"]`);
+  if (!row) return;
+  const a = row.querySelector("a"), label = row.cells[0].textContent;
+  const el = document.getElementById("recommended");
+  el.innerHTML = '<a class="btn"></a> <span class="muted">Not your system? Pick a file below.</span>';
+  el.firstChild.href = a.href;
+  el.firstChild.textContent = `Download for ${label} (${row.cells[1].textContent})`;
+  el.hidden = false;
+})();
+</script>
+</body></html>

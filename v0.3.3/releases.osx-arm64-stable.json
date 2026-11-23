@@ -1,0 +1,19 @@
+{
+ "Assets": [
+  {
+   "PackageId": "CodeVault",
+   "Version": "0.3.3",
+   "Type": "Full",
+   "FileName": "CodeVault-0.3.3-osx-arm64-stable-full.nupkg",
+   "SHA1": "10B8EFB6DFA139B34371FA93D43B00FA6D41C93E",
+   "SHA256": "5a3db4ab93902418c049dbce40c14243e610e3177045e69de4991af197b315e3",
+   "Size": 6866294
+  }
+ ],
+ "channel": "stable",
+ "os": "macos",
+ "arch": "aarch64",
+ "issued_at": "2026-11-23T10:51:49Z",
+ "expires_at": "2027-02-21T10:51:49Z",
+ "base_url": "https://thearpankumar.github.io/codevault-releases/v0.3.3/"
+}
